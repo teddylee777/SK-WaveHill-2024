@@ -1,0 +1,38 @@
+[global]
+# 개발자 모드 활성화
+developmentMode = false
+
+[server]
+# 서버 포트 설정
+port = 8501
+# 서버 주소 설정
+address = "localhost"
+# 최대 업로드 크기 (MB)
+maxUploadSize = 200
+
+[browser]
+# 브라우저 자동 실행
+serverAddress = "localhost"
+serverPort = 8501
+gatherUsageStats = true
+
+[runner]
+# 스크립트 실행 관련 설정
+magicEnabled = true
+fastReruns = true
+postScriptGC = true
+handleKeyboardInterrupt = true
+
+[theme]
+# 기본 색상 테마
+primaryColor = "#FF4B4B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#31333F"
+font = "sans serif"
+
+# 추가 테마 설정
+base = "light"
+headerColor = "#F0F2F6"
+bodyFont = "AppleGothic"
+codeFont = "monospace"
